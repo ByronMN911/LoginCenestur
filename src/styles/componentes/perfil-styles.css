@@ -1,0 +1,76 @@
+/* Efectos hover para botones */
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Estilos para el botón de toggle del sidebar */
+.btn.btn-outline-info {
+  transition: all 0.3s ease; /* Suaviza la transición de los cambios */
+}
+
+/* Efecto hover - cambiará cuando el mouse pase por encima */
+.btn.btn-outline-info:hover {
+  background-color: #585AFA; /* Mismo color que el borde */
+  color: white !important; /* Texto blanco para mejor contraste */
+  border-color: #585AFA; /* Mantiene el mismo color de borde */
+  box-shadow: 0 2px 8px rgba(88, 90, 250, 0.3); /* Sutil sombra para efecto de elevación */
+}
+
+/* Estilos para el icono dentro del botón */
+.btn.btn-outline-info:hover i {
+  color: white !important; /* Asegura que el icono también cambie a blanco */
+}
+
+/* Scrollbar personalizado para webkit */
+.sidebar-fixed::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-fixed::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-fixed::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.sidebar-fixed::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Animaciones para la tarjeta */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(88, 90, 250, 0.1) !important;
+}
+
+/* Mejoras para badges */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Efectos para los iconos */
+.fa {
+  transition: all 0.3s ease;
+}
+
+/* Responsive para el header */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .d-none.d-md-block {
+    display: none !important;
+  }
+}
+
+
+
